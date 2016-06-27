@@ -1,7 +1,7 @@
 package com.kim.designpattern.singleton;
 
 /**
- * Created by kim on 16-3-27.
+ * 单例
  */
 public class Single {
     private static Single single = null;
