@@ -1,7 +1,7 @@
 package com.kim.designpattern.proxy;
 
 /**
- * Created by kim on 16-3-27.
+ * 代理角色
  */
 public class Proxy implements Type {
 
@@ -17,11 +17,13 @@ public class Proxy implements Type {
 
     @Override
     public void get() {
+        System.out.println("Proxy doing!");
         type.get();
     }
 
     @Override
     public void post() {
+        System.out.println("Proxy doing!");
         type.post();
     }
 }

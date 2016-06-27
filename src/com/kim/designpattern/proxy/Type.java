@@ -1,7 +1,7 @@
 package com.kim.designpattern.proxy;
 
 /**
- * Created by kim on 16-3-27.
+ * 抽象角色
  */
 public interface Type {
 
