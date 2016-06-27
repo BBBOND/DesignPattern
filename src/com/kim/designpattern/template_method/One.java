@@ -9,17 +9,17 @@ public class One extends Template {
 
     @Override
     protected void start() {
-        System.out.println("One start....");
+        System.out.println("MethodOne start....");
     }
 
     @Override
     protected void process() {
-        System.out.println("One process...");
+        System.out.println("MethodOne process...");
     }
 
     @Override
     protected void stop() {
-        System.out.println("One stop...");
+        System.out.println("MethodOne stop...");
     }
 
     public void setProcess(boolean isProcess) {

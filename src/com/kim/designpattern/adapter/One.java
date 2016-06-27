@@ -3,16 +3,16 @@ package com.kim.designpattern.adapter;
 public class One implements OneI {
     @Override
     public String getName() {
-        return "One's name!";
+        return "MethodOne's name!";
     }
 
     @Override
     public String getSex() {
-        return "One's sex!";
+        return "MethodOne's sex!";
     }
 
     @Override
     public String getNum() {
-        return "One's num!";
+        return "MethodOne's num!";
     }
 }

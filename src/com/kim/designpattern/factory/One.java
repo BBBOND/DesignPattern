@@ -6,11 +6,11 @@ package com.kim.designpattern.factory;
 public class One implements Type {
     @Override
     public void doFirst() {
-        System.out.println("One do First!");
+        System.out.println("MethodOne do First!");
     }
 
     @Override
     public void doSecond() {
-        System.out.println("One do Second!");
+        System.out.println("MethodOne do Second!");
     }
 }

@@ -10,15 +10,15 @@ public class Two implements TwoI {
     @Override
     public Map<String, Object> getBaseInfo() {
         Map<String, Object> map = new HashMap<>();
-        map.put("name", "Two's name!");
-        map.put("sex", "Two's sex!");
+        map.put("name", "MethodTwo's name!");
+        map.put("sex", "MethodTwo's sex!");
         return map;
     }
 
     @Override
     public Map<String, Object> getOfficeInfo() {
         Map<String, Object> map = new HashMap<>();
-        map.put("num", "Two's num!");
+        map.put("num", "MethodTwo's num!");
         return map;
     }
 }

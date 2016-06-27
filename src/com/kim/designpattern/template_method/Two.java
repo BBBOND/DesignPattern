@@ -9,17 +9,17 @@ public class Two extends Template {
 
     @Override
     protected void start() {
-        System.out.println("Two start....");
+        System.out.println("MethodTwo start....");
     }
 
     @Override
     protected void process() {
-        System.out.println("Two process...");
+        System.out.println("MethodTwo process...");
     }
 
     @Override
     protected void stop() {
-        System.out.println("Two stop...");
+        System.out.println("MethodTwo stop...");
     }
 
     public void setProcess(boolean isProcess) {

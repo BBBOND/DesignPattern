@@ -6,6 +6,6 @@ package com.kim.designpattern.abstract_factory;
 public abstract class One implements Type {
     @Override
     public void doFirst() {
-        System.out.println("One do First!");
+        System.out.println("MethodOne do First!");
     }
 }
