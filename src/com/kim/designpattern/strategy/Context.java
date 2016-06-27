@@ -1,7 +1,7 @@
 package com.kim.designpattern.strategy;
 
 /**
- * 用于调用方法
+ * 环境角色
  */
 public class Context {
     private IStrategy strategy;

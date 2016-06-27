@@ -1,7 +1,7 @@
 package com.kim.designpattern.strategy;
 
 /**
- * 接口定义抽象方法
+ * 抽象策略角色
  */
 public interface IStrategy {
 

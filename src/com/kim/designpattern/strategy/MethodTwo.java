@@ -1,7 +1,7 @@
 package com.kim.designpattern.strategy;
 
 /**
- * 方法二
+ * 具体策略角色
  */
 public class MethodTwo implements IStrategy {
 
