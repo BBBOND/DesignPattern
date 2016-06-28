@@ -24,9 +24,9 @@ public class Main {
 //            type.doSecond();
 //        }
 //
-//        one = Factory.lazyCreate(One.class);
+//        one = Factory.lazyCreate(TypeOne.class);
 //        one.doFirst();
-//        two = Factory.lazyCreate(Two.class);
+//        two = Factory.lazyCreate(TypeTwo.class);
 //        two.doSecond();
     }
 }
