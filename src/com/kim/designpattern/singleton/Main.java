@@ -5,9 +5,19 @@ package com.kim.designpattern.singleton;
  */
 public class Main {
     public static void main(String[] args) {
-        Single single = Single.getInstance();
-        single.say();
-        single = Single.getInstance();
-        single.say();
+        Singleton singleton = Singleton.getInstance();
+        singleton.say();
+        singleton = Singleton.getInstance();
+        singleton.say();
+
+        EagerSingleton eagerSingleton = EagerSingleton.getInstance();
+        eagerSingleton.say();
+        eagerSingleton = EagerSingleton.getInstance();
+        eagerSingleton.say();
+
+        LazySingleton lazySingleton = LazySingleton.getInstance();
+        lazySingleton.say();
+        lazySingleton = LazySingleton.getInstance();
+        lazySingleton.say();
     }
 }
