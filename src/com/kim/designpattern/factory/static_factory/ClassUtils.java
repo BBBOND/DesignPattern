@@ -1,6 +1,4 @@
-package com.kim.designpattern.factory;
-
-import sun.reflect.generics.scope.ClassScope;
+package com.kim.designpattern.factory.static_factory;
 
 import java.io.File;
 import java.io.IOException;

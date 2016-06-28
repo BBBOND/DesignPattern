@@ -1,7 +1,7 @@
 package com.kim.designpattern.factory;
 
 /**
- * Created by kim on 16-3-27.
+ * 具体产品角色
  */
 public class Two implements Type {
     @Override
