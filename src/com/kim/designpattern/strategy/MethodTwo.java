@@ -7,6 +7,6 @@ public class MethodTwo implements IStrategy {
 
     @Override
     public void operate() {
-        System.out.println("This is Method Two doing!");
+        System.out.println("This is Method TypeTwo doing!");
     }
 }

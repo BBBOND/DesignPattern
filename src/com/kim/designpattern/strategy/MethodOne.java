@@ -6,6 +6,6 @@ package com.kim.designpattern.strategy;
 public class MethodOne implements IStrategy {
     @Override
     public void operate() {
-        System.out.println("This is Method One doing!");
+        System.out.println("This is Method TypeOne doing!");
     }
 }
