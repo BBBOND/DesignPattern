@@ -1,7 +1,7 @@
 package com.kim.designpattern.abstract_factory;
 
 /**
- * Created by kim on 16-3-27.
+ * 抽象产品角色
  */
 public interface Type {
 

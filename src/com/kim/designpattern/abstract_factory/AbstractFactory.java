@@ -1,7 +1,7 @@
 package com.kim.designpattern.abstract_factory;
 
 /**
- * Created by kim on 16-3-27.
+ * 抽象工厂角色
  */
 public abstract class AbstractFactory implements Factory {
     protected Type create(Class c) {

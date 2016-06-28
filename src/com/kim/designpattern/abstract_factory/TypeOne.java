@@ -1,9 +1,9 @@
 package com.kim.designpattern.abstract_factory;
 
 /**
- * Created by kim on 16-3-27.
+ * 抽象产品角色
  */
-public abstract class One implements Type {
+public abstract class TypeOne implements Type {
     @Override
     public void doFirst() {
         System.out.println("MethodOne do First!");

@@ -1,17 +1,17 @@
 package com.kim.designpattern.abstract_factory;
 
 /**
- * Created by kim on 16-3-27.
+ * 具体工厂角色
  */
 public class TypeOneFactory extends AbstractFactory {
 
     @Override
     public Type createOne() {
-        return super.create(OneTypeOne.class);
+        return super.create(T1One.class);
     }
 
     @Override
     public Type createTwo() {
-        return super.create(TwoTypeOne.class);
+        return super.create(T1Two.class);
     }
 }

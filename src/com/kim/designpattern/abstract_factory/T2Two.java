@@ -1,9 +1,9 @@
 package com.kim.designpattern.abstract_factory;
 
 /**
- * Created by kim on 16-3-27.
+ * 具体产品角色
  */
-public class OneTypeTwo extends One {
+public class T2Two extends TypeTwo {
     @Override
     public void type() {
         System.out.println("It's type two!");
