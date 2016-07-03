@@ -2,7 +2,10 @@ package com.kim.designpattern.builder;
 
 import java.util.ArrayList;
 
-public class BBuilder extends TypeBuilder {
+/**
+ * 具体建造者
+ */
+public class BBuilder extends Builder {
 
     private B b = new B();
 

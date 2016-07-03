@@ -3,7 +3,7 @@ package com.kim.designpattern.builder;
 import java.util.ArrayList;
 
 /**
- * Created by kim on 16-4-13.
+ * 抽象产品角色
  */
 public abstract class Type {
     private ArrayList<String> sequence = new ArrayList<>();

@@ -1,7 +1,7 @@
 package com.kim.designpattern.builder;
 
 /**
- * Created by kim on 16-4-13.
+ * 产品角色
  */
 public class A extends Type {
     @Override

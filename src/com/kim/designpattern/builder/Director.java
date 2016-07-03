@@ -2,6 +2,9 @@ package com.kim.designpattern.builder;
 
 import java.util.ArrayList;
 
+/**
+ * 指导者
+ */
 public class Director {
     private ArrayList<String> sequence = new ArrayList<>();
     private ABuilder aBuilder = new ABuilder();
