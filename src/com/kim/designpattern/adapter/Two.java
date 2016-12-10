@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by kim on 16-3-29.
+ * 目标角色
  */
 public class Two implements TwoI {
     @Override

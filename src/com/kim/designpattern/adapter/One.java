@@ -1,5 +1,8 @@
 package com.kim.designpattern.adapter;
 
+/**
+ * 客户角色
+ */
 public class One implements OneI {
     @Override
     public String getName() {

@@ -2,7 +2,6 @@ package com.kim.designpattern.adapter;
 
 /**
  * 适配器模式
- * Created by kim on 16-3-29.
  */
 public class Main {
 

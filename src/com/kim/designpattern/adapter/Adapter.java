@@ -3,7 +3,7 @@ package com.kim.designpattern.adapter;
 import java.util.Map;
 
 /**
- * Created by kim on 16-3-29.
+ * 适配器角色
  */
 public class Adapter extends Two implements OneI {
 

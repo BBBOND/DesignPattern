@@ -110,6 +110,28 @@
 - 缺点
     - 每一个Prototype的子类都必须实现clone操作
 
+## 结构型模式
+### 适配器模式Adapter
+- 概述
+    - 为对象提供了一种完全不同的接口。运用适配器来实现一个不同的类的常见接口，同时避免了因升级和拆解客户代码所引起的纠纷。
+- 分类
+    - 类适配器
+        - 用一个具体的Adapter类对Adaptee和Target进行匹配。
+        - 使得Adapter可以重定义Adaptee的部分行为。
+        - 仅仅引入了一个对象，并不需要额外的指针以间接得到 Adaptee。
+    - 对象适配器
+        - 允许一个Adapter与多个Adaptee（即Adaptee本身以及它的所有子类（如果有子类的话））同时工作。
+        - Adapter也可以一次给所有的Adaptee添加功能。
+        - 使得重定义Adaptee的行为比较困难。这就需要生成Adaptee的子类并且使得Adapter引用这个子类而不是引用Adaptee本身。
+- 组成
+    - 目标角色（Target）：— 定义Client使用的与特定领域相关的接口。
+    - 客户角色（Client）：与符合Target接口的对象协同。
+    - 被适配角色（Adaptee)：定义一个已经存在并已经使用的接口，这个接口需要适配。
+    - 适配器角色（Adapter) ：适配器模式的核心。它将对被适配Adaptee角色已有的接口转换为目标角色Target匹配的接口。对Adaptee的接口与Target接口进行适配.
+
+
+
+
 
 ## 策略模式Strategy（对象行为型）
 - 概述
